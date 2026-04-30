@@ -37,7 +37,7 @@ textarea { min-height: 88px; resize: vertical; border-radius: 18px; border: 2px 
 .props li { background: #ffffffe0; border: 1px solid #0002; border-radius: 12px; padding: .55rem; font-weight: 750; font-size: .88rem; transform: rotate(var(--r, -1deg)); }
 .props li:nth-child(even){ --r: 2deg; }
 .backstageNote { position: absolute; inset: 24px; z-index: 1; padding: 18px; border: 2px dotted var(--accent); opacity: 0; transform: translateY(30px); transition: opacity .3s, transform .3s; background: #fff9; border-radius: 18px; }
-.stage.backstage .backstageNote { opacity: 1; transform: translateY(0); z-index: 7; }
+.stage.backstage .backstageNote { opacity: 1; transform: translateY(0); z-index: 9; }
 .sliders { display: grid; gap: 12px; margin-top: 16px; }
 .sliders label { display: grid; grid-template-columns: 160px 1fr; gap: 12px; align-items: center; font-weight: 900; }
 input[type='range'] { accent-color: var(--accent); width: 100%; }
